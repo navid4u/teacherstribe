@@ -1,0 +1,62 @@
+* {
+  transition: 0.3s;
+}
+
+#form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#input-get {
+  width: 350px;
+  background-color: rgba(0, 0, 0, 0); /* Remove the background color */
+  height: 60px;
+  border-radius: 5px;
+  color: #000000; /* Set text color to black */
+  text-align: center;
+}
+
+#input-get[type="text"]:focus {
+  box-shadow: none; /* Remove the box shadow */
+  color: #000000; /* Set text color to black */
+}
+
+#btn-get[type="text"]:focus {
+  box-shadow: none; /* Remove the box shadow */
+  color: #000000; /* Set text color to black */
+}
+
+#textbot {
+  background-color: #ffffff; /* Set the background color to white */
+  width: 80%;
+  border-radius: 10px;
+  color: #000000; /* Set text color to black */
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: none; /* Remove the box shadow */
+}
+
+#back {
+  position: fixed;
+  bottom: 0;
+  background-color: #ffffff; /* Set the background color to white */
+  padding: 5px;
+  border-radius: 5px 0 0 0;
+  text-decoration: none;
+}
+
+#about {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff; /* Set the background color to white */
+  padding: 5px;
+  border-radius: 0 5px 0 0;
+  text-decoration: none;
+}

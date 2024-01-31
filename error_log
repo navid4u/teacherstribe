@@ -1,0 +1,380 @@
+[07-Aug-2023 18:45:22 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/efqlckyo/public_html/conn.php:2
+Stack trace:
+#0 /home/efqlckyo/public_html/conn.php(2): mysqli_connect('localhost', 'root', '6620514', 'wp_work')
+#1 /home/efqlckyo/public_html/part_5.php(18): include('/home/efqlckyo/...')
+#2 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#3 {main}
+  thrown in /home/efqlckyo/public_html/conn.php on line 2
+[07-Aug-2023 18:45:25 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home/efqlckyo/public_html/conn.php:2
+Stack trace:
+#0 /home/efqlckyo/public_html/conn.php(2): mysqli_connect('localhost', 'root', '6620514', 'wp_work')
+#1 /home/efqlckyo/public_html/part_5.php(18): include('/home/efqlckyo/...')
+#2 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#3 {main}
+  thrown in /home/efqlckyo/public_html/conn.php on line 2
+[07-Aug-2023 18:50:30 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[07-Aug-2023 18:50:33 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[07-Aug-2023 19:01:05 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[07-Aug-2023 19:01:31 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[07-Aug-2023 19:04:44 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[07-Aug-2023 19:05:42 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[07-Aug-2023 20:12:33 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[07-Aug-2023 20:40:19 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[07-Aug-2023 21:16:34 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[07-Aug-2023 21:44:41 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[07-Aug-2023 22:51:58 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 00:33:28 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 00:33:49 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 00:41:01 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 01:05:23 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 05:50:41 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 05:50:42 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 05:50:43 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 06:05:40 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 06:05:40 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 06:05:40 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 07:15:22 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 07:32:18 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 08:45:20 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 10:27:37 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 12:37:37 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 12:37:37 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.posts' doesn't exist in /home/efqlckyo/public_html/part_5.php:21
+Stack trace:
+#0 /home/efqlckyo/public_html/part_5.php(21): mysqli_query(Object(mysqli), 'SELECT id, titl...')
+#1 /home/efqlckyo/public_html/index.php(11): include('/home/efqlckyo/...')
+#2 {main}
+  thrown in /home/efqlckyo/public_html/part_5.php on line 21
+[08-Aug-2023 14:07:23 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.ttep_teacher' doesn't exist in /home/efqlckyo/public_html/teacher_search.php:26
+Stack trace:
+#0 /home/efqlckyo/public_html/teacher_search.php(26): mysqli_query(Object(mysqli), 'SELECT * FROM t...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/teacher_search.php on line 26
+[08-Aug-2023 14:07:35 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.ttep_teacher' doesn't exist in /home/efqlckyo/public_html/teacher_search.php:26
+Stack trace:
+#0 /home/efqlckyo/public_html/teacher_search.php(26): mysqli_query(Object(mysqli), 'SELECT * FROM t...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/teacher_search.php on line 26
+[08-Aug-2023 22:55:13 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[08-Aug-2023 22:57:36 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[08-Aug-2023 22:57:52 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[08-Aug-2023 22:57:53 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[08-Aug-2023 22:58:02 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[12-Aug-2023 22:33:18 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "include" in /home/efqlckyo/public_html/index.php on line 10
+[12-Aug-2023 22:33:22 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "include" in /home/efqlckyo/public_html/index.php on line 10
+[12-Aug-2023 22:41:06 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[12-Aug-2023 23:01:36 Asia/Tehran] PHP Warning:  include(nav_2.php): Failed to open stream: No such file or directory in /home/efqlckyo/public_html/index_2.php on line 6
+[12-Aug-2023 23:01:36 Asia/Tehran] PHP Warning:  include(nav_2.php): Failed to open stream: No such file or directory in /home/efqlckyo/public_html/index_2.php on line 6
+[12-Aug-2023 23:01:36 Asia/Tehran] PHP Warning:  include(): Failed opening 'nav_2.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/efqlckyo/public_html/index_2.php on line 6
+[18-Aug-2023 12:44:09 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[25-Aug-2023 19:12:31 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[03-Sep-2023 19:48:57 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[03-Sep-2023 19:48:57 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[03-Sep-2023 20:19:49 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[03-Sep-2023 20:19:49 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[03-Sep-2023 20:39:25 Asia/Tehran] PHP Warning:  Undefined array key "receiver" in /home/efqlckyo/public_html/send_message.php on line 12
+[03-Sep-2023 20:40:37 Asia/Tehran] PHP Warning:  Undefined array key "receiver" in /home/efqlckyo/public_html/send_message.php on line 12
+[06-Sep-2023 17:50:14 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[06-Sep-2023 17:50:14 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[06-Sep-2023 17:50:49 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[06-Sep-2023 17:50:49 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 19:47:05 Asia/Tehran] PHP Warning:  Undefined variable $result in /home/efqlckyo/public_html/teacher_search.php on line 46
+[07-Sep-2023 19:47:05 Asia/Tehran] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in /home/efqlckyo/public_html/teacher_search.php:46
+Stack trace:
+#0 /home/efqlckyo/public_html/teacher_search.php(46): mysqli_num_rows(NULL)
+#1 {main}
+  thrown in /home/efqlckyo/public_html/teacher_search.php on line 46
+[07-Sep-2023 19:48:11 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 19:48:11 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 19:49:31 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 19:49:31 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 19:50:02 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 19:50:02 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 19:52:41 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 19:52:41 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 19:59:57 Asia/Tehran] PHP Warning:  Undefined variable $result in /home/efqlckyo/public_html/teacher_search.php on line 46
+[07-Sep-2023 19:59:57 Asia/Tehran] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in /home/efqlckyo/public_html/teacher_search.php:46
+Stack trace:
+#0 /home/efqlckyo/public_html/teacher_search.php(46): mysqli_num_rows(NULL)
+#1 {main}
+  thrown in /home/efqlckyo/public_html/teacher_search.php on line 46
+[07-Sep-2023 20:00:00 Asia/Tehran] PHP Warning:  Undefined variable $result in /home/efqlckyo/public_html/teacher_search.php on line 46
+[07-Sep-2023 20:00:00 Asia/Tehran] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in /home/efqlckyo/public_html/teacher_search.php:46
+Stack trace:
+#0 /home/efqlckyo/public_html/teacher_search.php(46): mysqli_num_rows(NULL)
+#1 {main}
+  thrown in /home/efqlckyo/public_html/teacher_search.php on line 46
+[07-Sep-2023 20:00:02 Asia/Tehran] PHP Warning:  Undefined variable $result in /home/efqlckyo/public_html/teacher_search.php on line 46
+[07-Sep-2023 20:00:02 Asia/Tehran] PHP Fatal error:  Uncaught TypeError: mysqli_num_rows(): Argument #1 ($result) must be of type mysqli_result, null given in /home/efqlckyo/public_html/teacher_search.php:46
+Stack trace:
+#0 /home/efqlckyo/public_html/teacher_search.php(46): mysqli_num_rows(NULL)
+#1 {main}
+  thrown in /home/efqlckyo/public_html/teacher_search.php on line 46
+[07-Sep-2023 20:02:45 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 72
+[07-Sep-2023 20:02:45 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 72
+[07-Sep-2023 20:08:52 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 69
+[07-Sep-2023 20:08:52 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 69
+[07-Sep-2023 20:10:04 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 69
+[07-Sep-2023 20:10:04 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 69
+[07-Sep-2023 20:10:36 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 69
+[07-Sep-2023 20:10:36 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 69
+[07-Sep-2023 20:11:35 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:11:35 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:14:02 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:14:02 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:15:00 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:15:00 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:15:51 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 73
+[07-Sep-2023 20:15:51 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 73
+[07-Sep-2023 20:16:29 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:16:29 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:16:44 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 73
+[07-Sep-2023 20:16:44 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 73
+[07-Sep-2023 20:21:43 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:21:43 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:21:44 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:21:44 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:21:48 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:21:48 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 74
+[07-Sep-2023 20:26:22 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 84
+[07-Sep-2023 20:26:22 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 84
+[07-Sep-2023 20:40:48 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 84
+[07-Sep-2023 20:40:48 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 84
+[07-Sep-2023 20:41:44 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:41:44 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:41:45 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:41:45 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:41:45 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:41:45 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:41:50 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:41:50 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:42:14 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:42:14 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:42:19 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:42:19 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:43:54 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:43:55 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:44:37 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[07-Sep-2023 20:44:37 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[07-Sep-2023 20:44:59 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:44:59 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:45:12 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:45:12 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:45:33 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:45:33 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:45:57 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:45:57 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:45:58 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:45:58 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 85
+[07-Sep-2023 20:47:30 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[07-Sep-2023 20:47:30 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[07-Sep-2023 20:47:59 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[07-Sep-2023 20:47:59 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[07-Sep-2023 22:53:05 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[07-Sep-2023 22:53:05 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Sep-2023 13:41:17 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Sep-2023 13:41:17 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[13-Sep-2023 19:30:09 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[13-Sep-2023 19:30:09 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[13-Sep-2023 22:41:59 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[13-Sep-2023 22:41:59 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[13-Sep-2023 22:42:10 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[13-Sep-2023 22:42:10 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[13-Sep-2023 22:42:30 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[13-Sep-2023 22:42:30 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[06-Oct-2023 14:41:39 Asia/Tehran] PHP Warning:  Undefined array key "subdomain" in /home/efqlckyo/public_html/createSubDomain.php on line 3
+[07-Oct-2023 14:03:07 Asia/Tehran] PHP Warning:  Undefined array key "username" in /home/efqlckyo/public_html/createSubDomain.php on line 3
+[07-Oct-2023 14:03:07 Asia/Tehran] PHP Warning:  Undefined array key "subdomain" in /home/efqlckyo/public_html/createSubDomain.php on line 5
+[07-Oct-2023 14:03:29 Asia/Tehran] PHP Warning:  Undefined array key "username" in /home/efqlckyo/public_html/createSubDomain.php on line 3
+[07-Oct-2023 14:04:34 Asia/Tehran] PHP Warning:  Undefined array key "username" in /home/efqlckyo/public_html/createSubDomain.php on line 3
+[07-Oct-2023 14:32:24 Asia/Tehran] PHP Parse error:  syntax error, unexpected variable "$newDomain", expecting "," or ";" in /home/efqlckyo/public_html/createSubDomain.php on line 54
+[08-Oct-2023 14:48:09 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Oct-2023 14:48:09 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Oct-2023 14:48:09 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Oct-2023 14:50:48 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Oct-2023 14:50:48 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Oct-2023 14:50:48 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Oct-2023 15:10:44 Asia/Tehran] PHP Warning:  Undefined variable $subdomain in /home/efqlckyo/public_html/createSubDomain.php on line 69
+[08-Oct-2023 15:11:58 Asia/Tehran] PHP Warning:  Undefined variable $subdomain in /home/efqlckyo/public_html/createSubDomain.php on line 69
+[08-Oct-2023 15:24:36 Asia/Tehran] PHP Parse error:  syntax error, unexpected identifier "fwrite" in /home/efqlckyo/public_html/createSubDomain.php on line 71
+[08-Oct-2023 15:25:35 Asia/Tehran] PHP Warning:  fopen(/home/efqlckyo/public_htmlkll.teacherstribe.netkll/file_created.php): Failed to open stream: No such file or directory in /home/efqlckyo/public_html/createSubDomain.php on line 69
+[08-Oct-2023 15:25:35 Asia/Tehran] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in /home/efqlckyo/public_html/createSubDomain.php:70
+Stack trace:
+#0 /home/efqlckyo/public_html/createSubDomain.php(70): fwrite(false, '<?php echo 'Hel...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/createSubDomain.php on line 70
+[08-Oct-2023 15:27:38 Asia/Tehran] PHP Warning:  fopen(/home/efqlckyo/public_html/kjkj/file_created.php): Failed to open stream: No such file or directory in /home/efqlckyo/public_html/createSubDomain.php on line 69
+[08-Oct-2023 15:27:38 Asia/Tehran] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in /home/efqlckyo/public_html/createSubDomain.php:70
+Stack trace:
+#0 /home/efqlckyo/public_html/createSubDomain.php(70): fwrite(false, '<?php echo 'Hel...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/createSubDomain.php on line 70
+[08-Oct-2023 15:31:11 Asia/Tehran] PHP Warning:  fopen(/home/efqlckyo/public_html/kjhg/file_created.php): Failed to open stream: No such file or directory in /home/efqlckyo/public_html/createSubDomain.php on line 69
+[08-Oct-2023 15:31:11 Asia/Tehran] PHP Fatal error:  Uncaught TypeError: fwrite(): Argument #1 ($stream) must be of type resource, bool given in /home/efqlckyo/public_html/createSubDomain.php:71
+Stack trace:
+#0 /home/efqlckyo/public_html/createSubDomain.php(71): fwrite(false, '<?php echo 'Hel...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/createSubDomain.php on line 71
+[18-Oct-2023 09:40:57 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[18-Oct-2023 09:40:57 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[18-Oct-2023 09:40:57 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[21-Nov-2023 22:05:06 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[21-Nov-2023 22:05:06 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[21-Nov-2023 22:05:06 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[03-Dec-2023 18:33:50 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/efqlckyo/public_html/conn.php:2
+Stack trace:
+#0 /home/efqlckyo/public_html/conn.php(2): mysqli_connect('localhost', 'efqlckyo_navid', 'Nasr6620514', 'efqlckyo_ttep')
+#1 /home/efqlckyo/public_html/part_5.php(17): include('/home/efqlckyo/...')
+#2 /home/efqlckyo/public_html/index.php(13): include('/home/efqlckyo/...')
+#3 {main}
+  thrown in /home/efqlckyo/public_html/conn.php on line 2
+[09-Dec-2023 07:47:12 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[09-Dec-2023 07:47:12 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[09-Dec-2023 07:47:12 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[10-Dec-2023 17:10:45 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[10-Dec-2023 17:10:45 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[10-Dec-2023 17:10:45 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[11-Dec-2023 09:22:28 Asia/Tehran] PHP Warning:  include(part_2.php): Failed to open stream: No such file or directory in /home/efqlckyo/public_html/contact.php on line 7
+[11-Dec-2023 09:22:28 Asia/Tehran] PHP Warning:  include(part_2.php): Failed to open stream: No such file or directory in /home/efqlckyo/public_html/contact.php on line 7
+[11-Dec-2023 09:22:28 Asia/Tehran] PHP Warning:  include(): Failed opening 'part_2.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/efqlckyo/public_html/contact.php on line 7
+[02-Jan-2024 19:49:42 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/efqlckyo/public_html/index.php on line 31
+[02-Jan-2024 19:50:04 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/efqlckyo/public_html/index.php on line 31
+[02-Jan-2024 19:50:07 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/efqlckyo/public_html/index.php on line 31
+[02-Jan-2024 19:50:19 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/efqlckyo/public_html/index.php on line 9
+[02-Jan-2024 19:50:21 Asia/Tehran] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /home/efqlckyo/public_html/index.php on line 9
+[08-Jan-2024 19:47:53 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Jan-2024 19:47:53 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Jan-2024 19:47:53 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Jan-2024 19:54:44 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Jan-2024 19:54:44 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[08-Jan-2024 19:54:44 Asia/Tehran] PHP Warning:  Undefined variable $web_page in /home/efqlckyo/public_html/teacher_search.php on line 86
+[18-Jan-2024 21:03:42 Asia/Tehran] PHP Warning:  Undefined array key "teachlang" in /home/efqlckyo/public_html/teacher_search.php on line 34

@@ -1,0 +1,15 @@
+[05-Jan-2024 18:35:23 Asia/Tehran] PHP Parse error:  syntax error, unexpected identifier "Tribe" in /home/efqlckyo/public_html/web_app/super_admin/app/config.php on line 8
+[05-Jan-2024 18:48:18 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add foreign key constraint in /home/efqlckyo/public_html/web_app/super_admin/relations.php:160
+Stack trace:
+#0 /home/efqlckyo/public_html/web_app/super_admin/relations.php(160): mysqli_query(Object(mysqli), 'ALTER TABLE tte...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/web_app/super_admin/relations.php on line 160
+[05-Jan-2024 18:49:52 Asia/Tehran] PHP Warning:  file(./../.gitignore): Failed to open stream: No such file or directory in /home/efqlckyo/public_html/web_app/super_admin/generate.php on line 1078
+[05-Jan-2024 18:49:52 Asia/Tehran] PHP Fatal error:  Uncaught TypeError: in_array(): Argument #2 ($haystack) must be of type array, bool given in /home/efqlckyo/public_html/web_app/super_admin/generate.php:1086
+Stack trace:
+#0 /home/efqlckyo/public_html/web_app/super_admin/generate.php(1086): in_array('super_admin/app...', false)
+#1 /home/efqlckyo/public_html/web_app/super_admin/generate.php(1281): generate(Array)
+#2 {main}
+  thrown in /home/efqlckyo/public_html/web_app/super_admin/generate.php on line 1086
+[05-Jan-2024 18:53:03 Asia/Tehran] PHP Warning:  file(./../.gitignore): Failed to open stream: No such file or directory in /home/efqlckyo/public_html/web_app/super_admin/generate.php on line 1078
+[05-Jan-2024 18:53:03 Asia/Tehran] PHP Warning:  foreach() argument must be of type array|object, bool given in /home/efqlckyo/public_html/web_app/super_admin/generate.php on line 1095

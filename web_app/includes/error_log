@@ -1,0 +1,65 @@
+[14-Aug-2023 09:40:35 Asia/Tehran] PHP Warning:  Undefined array key "student" in /home/efqlckyo/public_html/web_app/includes/add_class_time.php on line 24
+[14-Aug-2023 09:40:39 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/delete_class_time_code.php:3) in /home/efqlckyo/public_html/web_app/includes/delete_class_time_code.php on line 15
+[17-Aug-2023 00:38:36 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.ttep_message' doesn't exist in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php:10
+Stack trace:
+#0 /home/efqlckyo/public_html/web_app/includes/delete_message_code.php(10): mysqli_query(Object(mysqli), 'DELETE FROM tte...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php on line 10
+[17-Aug-2023 00:40:16 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.ttep_message' doesn't exist in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php:10
+Stack trace:
+#0 /home/efqlckyo/public_html/web_app/includes/delete_message_code.php(10): mysqli_query(Object(mysqli), 'DELETE FROM tte...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php on line 10
+[17-Aug-2023 00:41:55 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.ttep_message' doesn't exist in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php:10
+Stack trace:
+#0 /home/efqlckyo/public_html/web_app/includes/delete_message_code.php(10): mysqli_query(Object(mysqli), 'DELETE FROM tte...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php on line 10
+[17-Aug-2023 00:49:49 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.ttep_message' doesn't exist in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php:10
+Stack trace:
+#0 /home/efqlckyo/public_html/web_app/includes/delete_message_code.php(10): mysqli_query(Object(mysqli), 'DELETE FROM tte...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php on line 10
+[17-Aug-2023 00:49:53 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.ttep_message' doesn't exist in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php:10
+Stack trace:
+#0 /home/efqlckyo/public_html/web_app/includes/delete_message_code.php(10): mysqli_query(Object(mysqli), 'DELETE FROM tte...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php on line 10
+[17-Aug-2023 00:50:21 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'efqlckyo_ttep.ttep_message' doesn't exist in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php:10
+Stack trace:
+#0 /home/efqlckyo/public_html/web_app/includes/delete_message_code.php(10): mysqli_query(Object(mysqli), 'DELETE FROM tte...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php on line 10
+[17-Aug-2023 08:33:46 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/delete_message_code.php:3) in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php on line 15
+[17-Aug-2023 08:33:50 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/delete_message_code.php:3) in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php on line 15
+[17-Aug-2023 08:39:24 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/delete_message_code.php:3) in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php on line 15
+[17-Aug-2023 08:50:52 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/delete_message_code.php:3) in /home/efqlckyo/public_html/web_app/includes/delete_message_code.php on line 15
+[18-Aug-2023 12:51:40 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/student_detail_code.php:38) in /home/efqlckyo/public_html/web_app/includes/student_detail_code.php on line 45
+[18-Aug-2023 14:36:46 Asia/Tehran] PHP Parse error:  syntax error, unexpected identifier "s", expecting ")" in /home/efqlckyo/public_html/web_app/includes/change_address_setting.php on line 34
+[18-Aug-2023 15:44:58 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's name is interesting : NIght's man', '45 mins a day ', 'I care about it', '2023' at line 2 in /home/efqlckyo/public_html/web_app/includes/add_project.php:42
+Stack trace:
+#0 /home/efqlckyo/public_html/web_app/includes/add_project.php(42): mysqli_query(Object(mysqli), 'INSERT INTO tte...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/web_app/includes/add_project.php on line 42
+[18-Aug-2023 16:22:26 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/project_detail_code.php:20) in /home/efqlckyo/public_html/web_app/includes/project_detail_code.php on line 27
+[18-Aug-2023 16:38:47 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/project_detail_code.php:16) in /home/efqlckyo/public_html/web_app/includes/project_detail_code.php on line 23
+[18-Aug-2023 16:39:32 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/delete_project_code.php:3) in /home/efqlckyo/public_html/web_app/includes/delete_project_code.php on line 15
+[18-Aug-2023 21:42:17 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/delete_student_code.php:3) in /home/efqlckyo/public_html/web_app/includes/delete_student_code.php on line 15
+[18-Aug-2023 21:53:53 Asia/Tehran] PHP Warning:  Undefined variable $extra_information in /home/efqlckyo/public_html/web_app/includes/add_student.php on line 49
+[18-Aug-2023 21:53:54 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/add_student.php:49) in /home/efqlckyo/public_html/web_app/includes/add_student.php on line 52
+[18-Aug-2023 22:08:35 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/student_detail_code.php:45) in /home/efqlckyo/public_html/web_app/includes/student_detail_code.php on line 52
+[18-Aug-2023 22:10:51 Asia/Tehran] PHP Fatal error:  Uncaught Error: Undefined constant "sql" in /home/efqlckyo/public_html/web_app/includes/student_detail_code.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/efqlckyo/public_html/web_app/includes/student_detail_code.php on line 43
+[18-Aug-2023 22:12:14 Asia/Tehran] PHP Warning:  Undefined array key "extra_information" in /home/efqlckyo/public_html/web_app/includes/session_detail_code.php on line 12
+[18-Aug-2023 22:12:14 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/session_detail_code.php:12) in /home/efqlckyo/public_html/web_app/includes/session_detail_code.php on line 27
+[18-Aug-2023 22:14:32 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/session_detail_code.php:20) in /home/efqlckyo/public_html/web_app/includes/session_detail_code.php on line 27
+[18-Aug-2023 22:20:45 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/delete_session_code.php:3) in /home/efqlckyo/public_html/web_app/includes/delete_session_code.php on line 15
+[18-Aug-2023 22:23:56 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/efqlckyo/public_html/web_app/includes/tuition_detail_code.php:18) in /home/efqlckyo/public_html/web_app/includes/tuition_detail_code.php on line 25
+[18-Aug-2023 22:37:16 Asia/Tehran] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's is : 23212312312', '2023-08-18')' at line 2 in /home/efqlckyo/public_html/web_app/includes/add_reminder.php:32
+Stack trace:
+#0 /home/efqlckyo/public_html/web_app/includes/add_reminder.php(32): mysqli_query(Object(mysqli), 'INSERT INTO tte...')
+#1 {main}
+  thrown in /home/efqlckyo/public_html/web_app/includes/add_reminder.php on line 32
+[19-Aug-2023 00:01:13 Asia/Tehran] PHP Parse error:  syntax error, unexpected identifier "domain" in /home/efqlckyo/public_html/web_app/includes/send_domain_request_code.php on line 14
