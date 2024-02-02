@@ -27,7 +27,7 @@
             <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
             <li class="hidden"><a href="#page-top"></a></li>
             <li>
-              <a class="page-scroll" >Find Teachers</a>
+              <a class="page-scroll" hred="http://www.find.teacherstribe.net" >Find Teachers</a>
             </li>
             <li><a class="page-scroll" href="http://www.teacherstribe.net">Home page</a></li>
             <li><a class="page-scroll" href="http://www.portal.teacherstribe.net">Teachers's Portal</a></li>
