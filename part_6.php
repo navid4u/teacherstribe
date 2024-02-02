@@ -8,7 +8,7 @@
     <p>Looking for a great learning experience? Want an IELTS writing instructor to improve your score? Fancy an English Speaking class with a qualified teacher?</p>
   </div>
   <div class="row">
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-101">
       <div class="row testimonials">
       
 
