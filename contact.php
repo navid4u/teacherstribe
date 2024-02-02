@@ -3,7 +3,7 @@
 <?php 
 
 include("config.php"); 
-include("nav.php");
+include("nav_2.php");
 include("header.php");
 
   
