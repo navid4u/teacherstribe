@@ -12,8 +12,15 @@
   .title {
     font-weight: bold;
     white-space: nowrap;
-    text-align: right;
+    text-align: left;
     padding-right: 10px;
+    color: black;
+  }
+  .mytext {
+    white-space: nowrap;
+    text-align: left;
+    padding-right: 10px;
+    color: black;
   }
 
   @media only screen and (max-width: 600px) {
@@ -57,7 +64,7 @@ $result = mysqli_query($conn, $query);
         $id = $row['id_ttep_teacher'];
         ?>
     <tr>
-      <td><img src="../web_app/<?php echo $imagePath; ?>" alt="Teacher Image" style="width: 80px; height: 80px; border-radius: 50%; margin-left: 20px; margin-right: 20px"></td>
+      <td><img src="../web_app/<?php echo $imagePath; ?>" alt="Teacher Image" style="width: 80px; height: 80px; border-radius: 75px; margin-left: 20px; margin-right: 20px"></td>
       <td></td>
       <td class="padding">
         <a class="register-button page-scroll" style="  margin-top: 20px;
@@ -67,23 +74,23 @@ $result = mysqli_query($conn, $query);
           <table class="borderless-table">
             <tr>
               <td class="title">First Name:</td>
-              <td><?php echo $firstname; ?></td>
+              <td class="mytext"> <?php echo $firstname; ?></td>
             </tr>
             <tr>
               <td class="title">Last Name:</td>
-              <td><?php echo $lastname; ?></td>
+              <td class="mytext"><?php echo $lastname; ?></td>
             </tr>
             <tr>
               <td class="title">Expertise:</td>
-              <td><?php echo $expertise; ?></td>
+              <td class="mytext"><?php echo $expertise; ?></td>
             </tr>
             <tr>
               <td class="title">Contact Information:</td>
-              <td><?php echo $contact_number; ?></td>
+              <td class="mytext"> <?php echo $contact_number; ?></td>
             </tr>
             <tr>
               <td class="title">Web Page:</td>
-              <td><?php echo $web_page; ?></td>
+              <td class="mytext"> <?php echo $web_page; ?></td>
             </tr>
           </table>
         </div>
