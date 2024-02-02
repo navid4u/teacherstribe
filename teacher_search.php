@@ -19,7 +19,6 @@
   .mytext {
     white-space: nowrap;
     text-align: left;
-    padding-right: 10px;
     color: black;
   }
 
@@ -28,9 +27,7 @@
       display: block;
     }
 
-    .borderless-table td:first-child {
-      text-align: center;
-    }
+  
   }
 </style>
 
