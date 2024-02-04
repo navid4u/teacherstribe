@@ -25,6 +25,9 @@
   @media only screen and (max-width: 600px) {
     .borderless-table td {
       display: block;
+      width: 95%;
+      box-sizing: border-box;
+
     }
 
   
