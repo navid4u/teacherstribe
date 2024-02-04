@@ -49,15 +49,17 @@ $signature = $row5['signiture'];
 </style>
   <?php
  
-$query = "SELECT create_date FROM ttep_teacher";
+$query = "SELECT create_date FROM ttep_teacher WHERE username = '$username'" ;
 $result = mysqli_query($conn, $query);
 
 $row = mysqli_fetch_assoc($result);
 $createDate = $row['create_date'];
-
+ 
 $currentDate = date('Y-m-d');
 $daysPassed = floor((strtotime($currentDate) - strtotime($createDate)) / (60 * 60 * 24));
-$daysLeft = 30 - $daysPassed;
+$trialDays = 30; // or any other number of trial days you have
+$daysLeft = $trialDays - $daysPassed;
+
 
   $query2 = "UPDATE ttep_teacher SET days_left = '$daysLeft' WHERE username = '$username'";
 $result2 = mysqli_query($conn, $query2);

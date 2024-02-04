@@ -50,7 +50,7 @@ $signature = $row['signiture'];
                     <div class="row mb-3">
                         <div class="col-lg-4">
                             <div class="card mb-3">
-                                <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4" src="<?php echo $image_path ?>" width="70%" height="auto">
+                                <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4" src="<?php echo $image_path ?>"  style="width:100px; height:100px; object-fit:cover;">
                                 <div class="custom-file" >
 
                                 

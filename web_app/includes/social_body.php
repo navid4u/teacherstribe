@@ -354,7 +354,7 @@ echo $thanks ?> </p>
   <div class="row">
     <div class="column">
       <div class="centered spaced">
-        <img  class="border rounded-circle img-profile"   src="<?php echo $image_path ?>" alt="profile picture" />
+        <img  class="border rounded-circle img-profile"  style="object-fit: cover;"  src="<?php echo $image_path ?>" alt="profile picture" />
       </div>
       <br>
       <div class="centered spaced">
@@ -505,7 +505,7 @@ while ($row = mysqli_fetch_assoc($result)) {
  
         while ($row = mysqli_fetch_assoc($result)) {
           echo '<tr>';
-          echo '<td class="td2"><img style="max-width:70%" class="border rounded-circle img-profile2" src="' . $row['image_path'] . '" alt="Profile Picture"></td>';
+          echo '<td class="td2"><img style="max-width:40px; object-fit: cover; "   src="' . $row['image_path'] . '" alt="Profile Picture"></td>';
           echo '<td><a title=' . $row['expertise'] .  ' href="/web_app/view_profile.php?username=' . $row['username'] . '">' . $row['firstname'] . '</a></td>';
           echo '<td> Age: '  . $row['age'] . '</td>';
           echo '</tr>';
