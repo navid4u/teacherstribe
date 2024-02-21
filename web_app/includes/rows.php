@@ -231,7 +231,7 @@ if ($result3->num_rows > 0) {
                                 <div class="card-body">
                                     <div class="row align-items-center no-gutters">
                                         <div class="col me-2" style="height:80px">
-                                            <div class="text-uppercase text-warning fw-bold text-xs mb-1"><a href="social.php"> <span>Pending messeges&nbsp;</span></a></div>
+                                            <div class="text-uppercase text-warning fw-bold text-xs mb-1"><a href="social"> <span>Pending messeges&nbsp;</span></a></div>
                                             <div class="text-dark fw-bold h5 mb-0"><span><?php echo $messageCount ?></span></div>
                                         </div>
                                         <div class="col-auto"><i class="fas fa-comments fa-2x text-gray-300"></i></div>

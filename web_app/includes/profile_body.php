@@ -10,7 +10,7 @@
                     <div class="row mb-3">
                         <div class="col-lg-4">
                             <div class="card mb-3">
-                                <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4" src="<?php echo $image_path ?>" width="auto" height="160">
+                                <div class="card-body text-center shadow"><img class="img-profile"  style="object-fit: cover;"  src="<?php echo $image_path ?>" width="auto" height="160">
                                 <div class="custom-file" > 
  
                                 <form method="post" enctype = "multipart/form-data"  action="/web_app/includes/change_photo.php">
