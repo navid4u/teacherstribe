@@ -407,14 +407,15 @@ $hobby = $row["hobby"];
   </tr>
 </table>
   
-  
+   
   
 
 
         <div class="container">
-          <div class="avatar">
-            <img class="img-fluid rounded-circle" src="/web_app/<?php echo $image_path ?>">
+          <div style="margin-top: -100px">
+            <img   style=" width: 300px;     height: 300px;     object-fit: cover;    border-radius: 50%;" src="/web_app/<?php echo $image_path ?>">
           </div>
+          <p></p>
           <p>Hello! I am <strong><?php echo "$firstname  $lastname" ?></strong>. <?php echo "$about_me" ?>. I have a passion for <?php echo "$interest_1" ?> and <?php echo "$interest_2"?> . I have been teaching <?php echo "$teachlang" ?> for more than <?php echo "$duration" ?> </p>
           <a href="#" id="link" class="btn btn-outline-primary">Send me a message!</a>
         </div>
@@ -453,7 +454,8 @@ if ($result->num_rows > 0) {
 ?>
              
           </div>
-          <div class="education group" id="education">
+          
+           <div class="education group" id="education">
             <h2 class="text-center">Education</h2>
             <?php 
 
@@ -547,10 +549,14 @@ if ($conn->error) {
               </div>
             </div>
           </div>
+          
+          <?php if (!empty($hobby)): ?>
+
           <div class="hobbies group" id="hobbies">
             <h2 class="text-center">Hobbies</h2>
             <p class="text-center text-muted"><?php echo "$hobby" ?></p>
           </div>
+          <?php endif; ?>
         </div>
       </section>
       <footer class="page-footer">
