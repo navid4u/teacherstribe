@@ -2,19 +2,19 @@
     <div id="wrapper">
 
     
-
                 <div class="container-fluid">
                     <h3 class="text-dark mb-4" > <?php echo ("$firstname"." "."$lastname") ?>'s Profile</h3> <div style="font-size: small; color: red;"><?php $thanks= $_GET['thanks']; echo $thanks ?></div>
 <div style="color:red"> <strong> Account: <?php echo $daysLeft ?> days left 
-<a href="premium"> (Recharge/ Go premium)</a> </strong></div>
+<a href="premium"> (Recharge/ Go premium)</a> </strong> 
+</div>
                     <div class="row mb-3">
                         <div class="col-lg-4">
                             <div class="card mb-3">
                                 <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4" src="<?php echo $image_path ?>" width="auto" height="160">
-                                <div class="custom-file" >
-
+                                <div class="custom-file" > 
+ 
                                 <form method="post" enctype = "multipart/form-data"  action="/web_app/includes/change_photo.php">
-          <input type="file"   id="image" name="image">  <p style="line-height: 3.8">    <button type="submit" class="btn btn-primary btn-sm">Save</button> </p>
+       <div style="color:red"> <strong> <?php $error= $_GET['error']; echo $error ?> <div> <strong></strong> <input type="file"    id="image" name="image" accept="image/jpeg, image/jpg, image/png, image/gif" required>    <button type="submit" class="btn btn-primary btn-sm">Save</button> </p>
 
         </div>                                </div>  </form>
 
