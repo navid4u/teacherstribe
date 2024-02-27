@@ -17,8 +17,7 @@
     color: black;
   }
   .mytext {
-    white-space: nowrap;
-    text-align: left;
+     text-align: left;
     color: black;
   }
 
@@ -58,13 +57,14 @@ $result = mysqli_query($conn, $query);
         $firstname = $row['firstname'];
         $lastname = $row['lastname'];
         $contact_number = $row['contact_number'];
-        
+        $web_page = $row['website'];
+
 
         $name = $row['firstname'] . " " . $row['lastname'];
         $id = $row['id_ttep_teacher'];
         ?>
     <tr>
-      <td><img src="../web_app/<?php echo $imagePath; ?>" alt="Teacher Image" style="width: 80px; height: 80px; border-radius: 75px; margin-left: 20px; margin-right: 20px"></td>
+      <td><img src="../web_app/<?php echo $imagePath; ?>" alt="Teacher Image" style="width: 80px; height: 80px; object-fit: cover;  border-radius: 75px; margin-left: 20px; margin-right: 20px"></td>
       <td></td>
       <td class="padding">
         <a class="register-button page-scroll" style="  margin-top: 20px;
@@ -90,7 +90,7 @@ $result = mysqli_query($conn, $query);
             </tr>
             <tr>
               <td class="title">Web Page:</td>
-              <td class="mytext"> <?php echo $web_page; ?></td>
+              <td class="mytext"> <a href="<?php echo $web_page; ?>"><?php echo $web_page; ?></a></td>
             </tr>
           </table>
         </div>

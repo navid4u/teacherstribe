@@ -139,10 +139,10 @@ $contactnumber = $row["contact_number"];
 		<div class="col-lg-4">
 			<div class="bg-white mt-3 price-box">
 				<div class="pricing-name text-center">
-					<h4 class="mb-0">Basic</h4>
+					<h4 class="mb-0">Basic Plan A</h4>
 				</div>
 				<div class="plan-price text-center mt-4">
-					<h1 class="text-custom font-weight-normal mb-0">55 <span>/Month</span></h1> <p> Thousand Tomans</p>
+					<h1 class="text-custom font-weight-normal mb-0">99&nbsp; <span>/ 1 Month</span></h1> <p> Thousand Tomans</p>
 				</div>
 				<div class="price-features mt-5">
 					<p><i class="mdi mdi-check"></i>  Students:<span class="font-weight-bold"> Unlimited</span></p>
@@ -159,9 +159,9 @@ $contactnumber = $row["contact_number"];
 										<p><i class="mdi mdi-check"></i> Event: <span class="font-weight-bold">Yes</span></p>
 										<p><i class="mdi mdi-check"></i> Accounting: <span class="font-weight-bold">Yes</span></p>
 					<p><i class="mdi mdi-check"></i> LiveBoard: <span class="font-weight-bold">Yes</span></p>
-										<p><i class="mdi mdi-check"></i> Website: <span class="font-weight-bold" style="color:red">No</span></p>
+										<p><i class="mdi mdi-check"></i> Website: <span class="font-weight-bold" style="color:green">Yes</span></p>
 
-										<p><i class="mdi mdi-check"></i> Domain: <span class="font-weight-bold" style="color:red">No</span></p>
+										<p><i class="mdi mdi-check"></i> Domain: <span class="font-weight-bold" style="color:green">Yes</span></p>
 
 										<p><i class="mdi mdi-check"></i>Payment: <span class="font-weight-bold" style="color:red"> No</span></p>
 										<p><i class="mdi mdi-check" ></i> WebDesign: <span class="font-weight-bold" style="color:red">No</span></p>
@@ -181,10 +181,10 @@ $contactnumber = $row["contact_number"];
 		<div class="col-lg-4">
 			<div class="bg-white mt-3 price-box">
 				<div class="pricing-name text-center">
-					<h4 class="mb-0">Golden</h4>
+					<h4 class="mb-0">Basic Plan B</h4>
 				</div>
 				<div class="plan-price text-center mt-4">
-									<h1 class="text-custom font-weight-normal mb-0">100 <span>/Month</span></h1> <p> Thousand Tomans</p>
+									<h1 class="text-custom font-weight-normal mb-0">260&nbsp; <span>/ 3 Months</span></h1> <p> Thousand Tomans</p>
 
 				</div>
 				<div class="price-features mt-5">
@@ -220,10 +220,10 @@ $contactnumber = $row["contact_number"];
 		<div class="col-lg-4">
 			<div class="bg-white mt-3 price-box">
 				<div class="pricing-name text-center">
-					<h4 class="mb-0">Professional</h4>
+					<h4 class="mb-0">Golden Plan</h4>
 				</div>
 				<div class="plan-price text-center mt-4">
-									<h1 class="text-custom font-weight-normal mb-0">390 <span>/Month</span></h1> <p> Thousand Tomans</p>
+									<h1 class="text-custom font-weight-normal mb-0">3.5&nbsp; <span>/ 1 Yearr</span></h1> <p> Million Tomans</p>
 
 				</div>
 				<div class="price-features mt-5">
@@ -245,8 +245,8 @@ $contactnumber = $row["contact_number"];
 
 										<p><i class="mdi mdi-check"></i> Domain: <span class="font-weight-bold" style="color:green">Yes</span></p>
 
-										<p><i class="mdi mdi-check"></i>Payment: <span class="font-weight-bold" style="color:green"> Yes</span></p>
-										<p><i class="mdi mdi-check" ></i> WebDesign: <span class="font-weight-bold" style="color:green">Yes</span></p>
+										<p><i class="mdi mdi-check"></i>Payment: <span class="font-weight-bold" style="color:green" animation: flash 1s infinite;> Yes</span></p>
+										<p><i class="mdi mdi-check" ></i> WebDesign: <span class="font-weight-bold" style="color:green" animation: flash 1s infinite;>Yes</span></p>
 				</div>
 				 <hr>
                                         <a id="amount3" class="btn btn-primary d-block btn-google btn-user w-100 mb-2" role="button" style="background-color:orange"><i></i>&nbsp; Select</a> </a>
@@ -329,7 +329,7 @@ $contactnumber = $row["contact_number"];
             <label for="amount">Amount of payment::</label>
         </div>
         <div class="col-lg-9">
-            <input type="text"   class="form-control form-control-user" id="amount" name="amount" value="Please select a plan first">
+            <input readonly type="text"   class="form-control form-control-user" id="amount" name="amount" value="Please select a plan first">
         </div>
     </div>
 
@@ -369,14 +369,14 @@ var input = document.getElementById("amount");
     var link3 = document.getElementById("amount3");
 
 link1.addEventListener("click", function() {
-    input.value = "550000";
+    input.value = "990000";
       link1.style.backgroundColor = "green";
           mybutton.removeAttribute('disabled');
 
       link.style.backgroundColor = "orange";
                   link3.style.backgroundColor = "orange";
-  div.textContent = "You have selected the basic plan";
-  mytext.textContent= " You have selected the basic plan, and you will pay FIFTY FIVE THOUSAND TOMANS for ONE month of use."
+  div.textContent = "You have selected the basic plan A";
+  mytext.textContent= " You have selected the basic plan A, and you will pay NINETY NINE THOUSAND TOMANS for ONE month of use."
 
 
 });
@@ -392,14 +392,14 @@ var link3 = document.getElementById("amount3");
 var input = document.getElementById("amount");
 
 link.addEventListener("click", function() {
-    input.value = "1000000";
+    input.value = "260000";
       link.style.backgroundColor = "green";
       link1.style.backgroundColor = "orange";
             link3.style.backgroundColor = "orange";
                 mybutton.removeAttribute('disabled');
 
-  div.textContent = "You have selected the golden plan";
-mytext.textContent= " You have selected the golden plan, and you will pay ONE HUNDRED THOUSAND TOMANS for ONE month of use."
+  div.textContent = "You have selected the basic plan A";
+mytext.textContent= " You have selected the basic plan B, and you will pay TWO HUNDRED AND SIXTY THOUSAND TOMANS for 3 monthS of use."
 
 });
 var link1 = document.getElementById("amount1");
@@ -413,15 +413,15 @@ var mytext = document.getElementById("mytext");
 var input = document.getElementById("amount");
 
 link3.addEventListener("click", function() {
-    input.value = "3000000";
+    input.value = "15000000";
       link.style.backgroundColor = "orange";
       link1.style.backgroundColor = "orange";
       link3.style.backgroundColor = "green";
           mybutton.removeAttribute('disabled');
 
-  div.textContent = "You have selected the professional plan";
+  div.textContent = "You have selected the GOLDEN plan";
 
-mytext.textContent= " You have selected the professional plan, and you will pay THREE HUNDRED NINTY THOUSAND TOMANS for ONE month of use."
+mytext.textContent= " You have selected the professional Golden plan, and you will pay ONE MILLION AND HALF for ONE YEAR of use."
 });
 
 

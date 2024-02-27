@@ -2,16 +2,7 @@
 // Start a new or resume an existing session
 session_start();
 
-// Check if the session variable is set
-if (isset($_SESSION['username'])) {
-  // The session variable exists, so display the dashboard
-  
-} else {
-  // The session variable doesn't exist, so redirect to the login page
-  header('Location: login.php');
-  exit();
-}
-;
+
 
 
 require_once 'config.php';
@@ -29,6 +20,7 @@ $firstname = $row["firstname"];
 $lastname = $row["lastname"];
 $email = $row["email"];
 $contactnumber = $row["contact_number"];
+
 
 ?>
   
@@ -105,6 +97,11 @@ $contactnumber = $row["contact_number"];
     border-radius: 50%;
     margin-right: 20px;
 }
+ @keyframes flash {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
+    }
     </style>
     
     <meta charset="utf-8">
@@ -116,6 +113,7 @@ $contactnumber = $row["contact_number"];
 </head>
 <body class="bg-gradient-primary">
     <div class="container">
+
         <div class="row justify-content-center">
             <div class="col-md-9 col-lg-12 col-xl-10">
                 <div class="card shadow-lg o-hidden border-0 my-5">
@@ -128,8 +126,10 @@ $contactnumber = $row["contact_number"];
                     <div class="p-5">
                                     <div class="text-center">
                                         <h4 class="text-dark mb-4">Teachers' Tribe Premium</h4>  
+                                        <p>    <img src=welcome.webp style="width:90%; height:90%;">
+</p>
                                     </div>
-<p>
+<p> 
     <?php 
     include ('conn.php');
 	$name= $_SESSION['username'];
@@ -144,7 +144,8 @@ $contactnumber = $row["contact_number"];
         curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
         $res = curl_exec($ch);
         curl_close($ch);
-        return $res;
+             return array('response' => $res, 'amount' => $amount);
+
     };
     function get($url,$api,$trans_id,$id_get){
         $ch = curl_init();
@@ -184,18 +185,40 @@ $contactnumber = $row["contact_number"];
 	else
 	{
 		//false
-	};
-	
-	
+	}; 
+ 
+    
 	if(isset($trans_id) && isset($id_get) && isset($username) && !empty($trans_id) && !empty($id_get) && !empty($username)) {
     // Variables are defined and not null
     // Execute your SQL query
     $sql = "INSERT INTO ttep_premium (trans_id, id_get, username) VALUES ('$trans_id', '$id_get', '$username')";
     $result = mysqli_query($conn, $sql);
-$currentDate = date('Y-m-d');
+        $currentExpiryDate = $row['expiry_date'];
+$paid_amount = $parseDecode->amount;
 
-$sql2 = "UPDATE ttep_teacher SET create_date = '$currentDate' WHERE username = '$username'";
+$currentDate = date('Y-m-d H:i:s');
+     $currentExpiryTimestamp = strtotime($currentExpiryDate);
+if ($paid_amount == 990000) {
+    $days_to_add = 30;
+} elseif ($paid_amount == 2600000) {
+    $days_to_add = 90;
+} elseif ($paid_amount == 4950000) {
+    $days_to_add = 180;
+} else {
+    // Default to 30 days if the amount is not one of the specified values
+    $days_to_add = 30;
+}
+
+// Calculate the new expiry date by adding the appropriate number of days
+$newExpiryTimestamp = $currentExpiryTimestamp + ($days_to_add * 24 * 60 * 60);
+
+    // Convert the new expiry timestamp back to a date string
+    $newExpiryDate = date('Y-m-d H:i:s', $newExpiryTimestamp);
+
+$sql2 = "UPDATE ttep_teacher SET create_date = '$currentDate', expiry_date = '$newExpiryDate' WHERE username = '$username'";
 $result2 = mysqli_query($conn, $sql2);
+
+  
 
 
     echo "<strong><br>The transaction is done. </strong> <p></p>";
@@ -221,14 +244,14 @@ $result2 = mysqli_query($conn, $sql2);
  
 <div>
     
-    Now your account is recharged for more 30 days.  
-</div><p> 
+<p style="font-size: 1.2em; color: orange; animation: flash 1s infinite;">
+    Now your account is recharged for more <?php echo $days_to_add ?> days.
+</p></div><p> 
 
-<strong> Please login in your account to enter your dashboard!</strong>
+<strong> <a href="login" > Please login in your account to enter your dashboard!</a></strong>
 </p>
   <hr>
                              
-               <?php include ('login.php'); ?>                         
                                         
                           
 
@@ -243,6 +266,7 @@ $result2 = mysqli_query($conn, $sql2);
             </div>
         </div>
     </div>
+  
     <script src="assets/bootstrap/js/bootstrap.min.js"> 
 
    
