@@ -237,8 +237,15 @@
       overflow: hidden;
     }
   }
+.dataTables_wrapper .dataTables_paginate {
+    margin-top: 20px; /* Adjust as needed */
+    text-align: center;
+}
 
-
+  .dataTables_filter {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 </style>
 
 
@@ -494,31 +501,50 @@ while ($row = mysqli_fetch_assoc($result)) {
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="column" >
-      <?php
-        $sql = "SELECT username, firstname, lastname, age, expertise, image_path FROM ttep_teacher";
+  
+  <div class="row" style="margin: 0 auto; width:95%">
+  <div class="column">
+  <?php
+    $sql = "SELECT username, firstname, lastname, age, expertise, image_path FROM ttep_teacher";
 
-        // Execute the query and store the result set in a variable
-        $result = mysqli_query($conn, $sql);
-        echo '<table  style="padding:40px">';
- 
-        while ($row = mysqli_fetch_assoc($result)) {
-          echo '<tr>';
-          echo '<td class="td2"><img style="max-width:40px; object-fit: cover; "   src="' . $row['image_path'] . '" alt="Profile Picture"></td>';
-          echo '<td><a title=' . $row['expertise'] .  ' href="/web_app/view_profile.php?username=' . $row['username'] . '">' . $row['firstname'] . '</a></td>';
-          echo '<td> Age: '  . $row['age'] . '</td>';
-          echo '</tr>';
-    
-           echo '</tr>';
-        }
+    // Execute the query and store the result set in a variable
+    $result = mysqli_query($conn, $sql);
+    echo '<table id="userTable">';
 
-         echo '</table>';
+    echo '<thead><tr><th>Profile Picture</th><th>Name</th><th>Age</th></tr></thead>';
 
-        // Close the database connection
-        mysqli_close($conn);
-      ?>
-    </div>
+    echo '<tbody>';
+
+    while ($row = mysqli_fetch_assoc($result)) {
+      echo '<tr>';
+      echo '<td class="td2"><img style="width:40px; height:40px; object-fit: cover; " src="' . $row['image_path'] . '" alt="Profile Picture"></td>';
+      echo '<td><a title="' . $row['expertise'] .  '" href="/web_app/view_profile.php?username=' . $row['username'] . '">' . $row['firstname'] . '</a></td>';
+      echo '<td> Age: '  . $row['age'] . '</td>';
+      echo '</tr>';
+    }
+
+    echo '</tbody>';
+    echo '</table>';
+
+    // Close the database connection
+    mysqli_close($conn);
+  ?>
+</div>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- DataTables JavaScript -->
+<script type="text/javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    $('#userTable').DataTable({
+        "paging": true,
+        "pagingType": "numbers"
+    });
+});
+</script>
+
   </div>
 </div>
 
